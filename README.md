@@ -1,6 +1,6 @@
 # Hidden Endpoint Finder 🔍
 
-A lightweight Chrome extension that scans the current webpage for hidden endpoints and dynamically displays the results. The extension also includes a convenient "Copy All" button to copy all results to your clipboard.
+A lightweight Chrome extension that scans the current webpage for hidden endpoints and dynamically displays the results. The core JavaScript logic was created by Sina Yeganeh. The extension also includes a convenient "Copy All" button to copy all results to your clipboard.
 
 ## Features
 - Automatically scans the page when the extension is opened.
