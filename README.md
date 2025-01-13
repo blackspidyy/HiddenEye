@@ -1,4 +1,4 @@
-# Hidden Endpoint Finder 🔍
+# HiddenEye 🔍
 
 A lightweight Chrome extension that scans the current webpage for hidden endpoints and dynamically displays the results. The core JavaScript logic was created by Sina Yeganeh. The extension also includes a convenient "Copy All" button to copy all results to your clipboard.
 
@@ -11,7 +11,7 @@ A lightweight Chrome extension that scans the current webpage for hidden endpoin
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/hidden-endpoint-finder.git
+   git clone https://github.com/debu8er/Hiddeneye.git
    ```
 2. Go to chrome://extensions/ in your Chrome browser.
 3. Enable Developer Mode (toggle in the top right).
