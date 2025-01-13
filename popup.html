@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HiddenEye</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      width: 400px;
+      height: 350px;
+      background-color: #ffffff;
+      color: #333333;
+      box-sizing: border-box;
+    }
+
+    h4 {
+      margin: 0 0 10px;
+      font-size: 14px; /* Small header size */
+      color: #333333;
+    }
+
+    /* Spinner Styles */
+    #spinner {
+      margin: 10px auto;
+      width: 25px;
+      height: 25px;
+      border: 3px solid #cccccc;
+      border-top-color: #007bff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Results Section */
+    #results {
+      height: calc(100% - 80px);
+      overflow-y: auto;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      background-color: #f9f9f9;
+      padding: 8px;
+      font-size: 9px; /* Smaller font size for compact display */
+      line-height: 1.2;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      word-wrap: break-word;
+      font-size: 9px; /* Reduced font size for results */
+      margin-bottom: 2px;
+      padding: 4px;
+      border-bottom: none; /* No line breaks or separators */
+    }
+
+    /* Copy Button Styles */
+    #copyButton {
+      display: block;
+      margin: 0 0 10px auto;
+      padding: 8px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    #copyButton:hover {
+      background-color: #218838;
+    }
+
+    #copyButton:active {
+      background-color: #1e7e34;
+    }
+  </style>
+</head>
+<body>
+  <h4>HiddenEye</h4>
+  <button id="copyButton">Copy All</button>
+  <div id="spinner"></div>
+  <div id="results">
+    <h4>Results:</h4>
+    <ul id="resultList"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
