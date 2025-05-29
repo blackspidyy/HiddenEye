@@ -11,7 +11,7 @@ A lightweight Chrome extension that scans the current webpage for hidden endpoin
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/debu8er/hiddeneye.git
+   git clone https://github.com/blackspidyy/hiddeneye.git
    ```
 2. Go to chrome://extensions/ in your Chrome browser.
 3. Enable Developer Mode (toggle in the top right).
